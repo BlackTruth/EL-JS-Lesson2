@@ -7,7 +7,6 @@ var params = {
 };
 
 var callback = function (error, response, body) {
-    console.log(body);
     if (!error) {
         if (response.statusCode === 200) {
             console.log(cowsay.say({
